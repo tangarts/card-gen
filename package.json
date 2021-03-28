@@ -1,0 +1,32 @@
+{
+  "name": "card",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.11.23"
+  },
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "description": "card number generator",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "shadow-cljs watch app",
+    "compile": "shadow-cljs compile app",
+    "release": "shadow-cljs release app",
+    "repl": "shadow-cljs cljs-repl app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangarts/card.git"
+  },
+  "author": "Nehemiah Tang-Campbell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tangarts/card/issues"
+  },
+  "homepage": "https://github.com/tangarts/card#readme"
+
+}
