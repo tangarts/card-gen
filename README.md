@@ -1,4 +1,4 @@
-# Card
+# CardGen
 
 ![screenshot](images/demo.jpg)
 
@@ -7,7 +7,7 @@ Generate mock Visa or MasterCard card information.
 
 ## Demo
 
-Try the demo at https://ccard.netlify.app
+Try the demo at https://cardgen.netlify.app
 
 ## Features
 

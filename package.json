@@ -9,7 +9,7 @@
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
-  "description": "card number generator",
+  "description": "payment card number generator",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,13 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tangarts/card.git"
+    "url": "git+https://github.com/tangarts/cardgen.git"
   },
   "author": "Nehemiah Tang-Campbell",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tangarts/card/issues"
+    "url": "https://github.com/tangarts/cardgen/issues"
   },
-  "homepage": "https://github.com/tangarts/card#readme"
+  "homepage": "https://github.com/tangarts/cardgen#readme"
 
 }
