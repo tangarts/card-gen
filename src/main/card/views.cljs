@@ -18,7 +18,7 @@
 
 (defn card []
   (fn []
-      [:div {:class "max-w-sm mx-auto bg-gray-700 rounded-xl"}
+      [:div {:class "max-w-sm mx-auto bg-gray-700 rounded-lg h-56"}
        [:div {:class " p-2"}
          [:div {:class "p-2 flex mt-2 justify-end text-white"}
           [:span {:class "text-2xl sm:text-3xl font-bold"} "CLJS" ]]
