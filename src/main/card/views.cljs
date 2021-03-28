@@ -10,7 +10,7 @@
 
 (defn card-number []
   (fn []
-    [:div {:class "flex justify-center mt-8 mb-2"}
+    [:div {:class "flex justify-center mt-8 mb-2 px-4"}
      [:span {
       :class "text-center text-white text-base sm:text-lg font-bold"
       :style {:letter-spacing "0.3em"}}
@@ -18,7 +18,7 @@
 
 (defn card []
   (fn []
-      [:div {:class "max-w-sm mx-auto bg-gray-700 rounded-xl md:max-w-sm"}
+      [:div {:class "max-w-sm mx-auto bg-gray-700 rounded-xl"}
        [:div {:class " p-2"}
          [:div {:class "p-2 flex mt-2 justify-end text-white"}
           [:span {:class "text-2xl sm:text-3xl font-bold"} "CLJS" ]]
@@ -66,7 +66,8 @@
     [:a {:href "https://tangarts.github.io/about"} "tangarts"] ]])
 
 (defn app []
-  [:div {:class "w-full h-full py-20 min-h-screen bg-gray-300" }
+  [:div {:class "w-full h-full py-20 min-h-screen bg-gray-300
+                 flex flex-col" }
    [card]
    [buttons]
    [footer]])
